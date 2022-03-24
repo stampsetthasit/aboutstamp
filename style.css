@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:ital,wght@1,900&display=swap');
+
+* {
+  font-family: 'Press Start 2P', cursive;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 600vh;
+}
+
+.navbar {
+  border-bottom: 5px solid rgb(0, 0, 0);
+  position: fixed;
+}
+
+.navbar .navbar-brand {
+  font-size: 20px;
+  padding-left: 25px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.navbar .nav-item {
+  padding: 10px;
+}
+
+.navbar .nav-link {
+  margin-left: auto;
+  color: rgb(0, 0, 0);
+}
+
+.navbar .nav-link:hover {
+  color: rgb(125, 125, 125);
+}
+
+.container-right {
+  text-align: right;
+  font-size: small;
+}
+
+.home {
+  padding-bottom: 60px;
+}
+
+.about-me-box {
+  color: black;
+}
+
+.need-to-flex {
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.flex-content {
+  display: flex;
+  justify-content: center;
+}
+
+.education h1 {
+  font-size: 26px;
+  text-decoration: underline;
+  padding-bottom: 20px;
+}
+
+.education h5 {
+  text-decoration: underline;
+}
+
+.margin {
+  margin-top: auto;
+  padding: 1vh;
+}
+
+@media screen and (max-width: 767px) {
+  .mobile-space {
+    margin-top: 3vh;
+  }
+}
+
+.dp-iii {
+  color: rgb(0, 140, 255);
+}
+
+.swu {
+  color: rgb(247, 63, 63);
+}
+
+.dp-iii:hover {
+  color: rgb(28, 76, 116);
+}
+
+.swu:hover {
+  color: rgb(128, 27, 27);
+}
+
+/* Gallery */
+.insta-link a {
+  color: rgb(39, 38, 38);
+  text-decoration: none;
+}
+
+.insta-link:hover a {
+  color: rgb(39, 38, 38);
+  text-decoration: none;
+}
+
+.img-insta {
+  width: 20rem;
+  height: 20rem;
+}
+
+/* End Gallery */
+
+.socials a {
+  color: rgb(39, 38, 38);
+  text-decoration: none;
+}
+
+.socials:hover a {
+  color: rgb(39, 38, 38);
+  text-decoration: none;
+}
